@@ -1,7 +1,7 @@
 const panels = document.querySelectorAll(".panel");
 panels.forEach(item=>{
     console.log(item);
-    item.addEventListener("click",()=>{
+    item.addEventListener("mouseenter",()=>{
         removeActive();
         item.classList.add("active")
     })
